@@ -1,4 +1,4 @@
-const courses = require("./coursesDefault.json");
+const courses = require("./json/coursesDefault.json");
 var fs = require('fs');
 
 courses.forEach((course) => {
@@ -35,4 +35,4 @@ courses.forEach((course) => {
 });
 let coursesString = JSON.stringify(courses);
 
-fs.writeFile("./courses.json",coursesString,'utf-8',()=>{console.log("Filtering is done :)");});
+fs.writeFile("./json/courses.json",coursesString,'utf-8',()=>{console.log("Filtering is done :)");});

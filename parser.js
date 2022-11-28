@@ -1,4 +1,4 @@
-const courses = require("./courses.json");
+const courses = require("json/courses.json");
 
 // console.log(courses[0]['credits']);
 // console.log(courses[0]['eventId']);
